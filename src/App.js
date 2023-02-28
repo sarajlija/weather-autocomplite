@@ -3,7 +3,7 @@ import { useEffect } from "react"
 import { Row, Col, Container } from "react-bootstrap"
 import ToDay from "./components/ToDay"
 import Daily from "./components/Daily"
-import { WEATHER_API_KEY } from "./constants"
+import { REACT_APP_API_KEY } from "./constants"
 import { useGlobalContext } from "./context"
 import SearchWeather from "./components/SearchWeather"
 //
@@ -13,7 +13,7 @@ function App() {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": WEATHER_API_KEY,
+      "X-RapidAPI-Key": REACT_APP_API_KEY,
       "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com"
     }
   }
