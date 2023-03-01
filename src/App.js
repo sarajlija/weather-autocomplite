@@ -5,6 +5,7 @@ import ToDay from "./components/ToDay"
 import Daily from "./components/Daily"
 import { useGlobalContext } from "./context"
 import SearchWeather from "./components/SearchWeather"
+
 //
 function App() {
   const { isOpenSearch, setIsOpenSearch, sugestionCityData, setSugestionCityData, location, setLocation, loading, setLoading, setForecast } = useGlobalContext()
