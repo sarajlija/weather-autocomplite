@@ -47,9 +47,12 @@ function ToDay() {
             </Card.ImgOverlay>
           </Card>
           <Card.Text className="text-warning text-center fs-4 mb-5 opacity-75">
-            <span>Coded by</span>
+            <span>Created by</span>
+            <span> Salko</span>
             <br />
-            <span>Salko.Bidzevic</span>
+            <a href="https://devchallenges.io/" target="_blank" rel="noreferrer">
+              devchallenges.io
+            </a>
           </Card.Text>
         </Col>
       </Row>
